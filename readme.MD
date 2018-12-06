@@ -5,7 +5,7 @@ Personal pet project of mine that I've decided to open source.
 This project will run as a Google Apps Script that needs to be deployed as a webapp. 
 The script will check for the drawing results of Euromillions and append a row to a Google sheet of your choosing with the date of the draw, the bet and the winnings.
 
-The sheet could look as ![follows] (https://raw.githubusercontent.com/OreonRobin/io.oreon.euromillions/master/screenshots/screenshot.png)
+The sheet could look as [follows](https://raw.githubusercontent.com/OreonRobin/io.oreon.euromillions/master/screenshots/screenshot.png)
 
 Note that the cells in `#E2`, `#F2` and `#G2` are simple sum/subtraction formulas that were manually added to the sheet.
 
