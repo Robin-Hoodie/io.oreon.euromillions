@@ -23,9 +23,9 @@ The default is retrieving the results by email. See below on how to change this.
   - `SHEET_EDIT_URL`: the **editable** URL for a Google sheet to which the results should be appended
   - `FROM-EMAIL`: Required if you want to retrieve the results by email. This is the email address the the lottery uses to send you the result of a draw
   - `RAPID_API_KEY`: Required if you want to use the Rapid API to retrieve the results. Get it [here](https://rapidapi.com/). **As stated above, this API is not working at the moment of writing this**
-  - `MAGIC_NUMBERS`: The numbers you use to play Euromillions, supply these as a comma separated string e..g. `1,2,3,4,5`. Note that there **can not be any spaces between the numbers**
-  - `MAGIC_STARS`: The stars you use to play Euromillions, supply these as a comma separated string e.g. `4,9`. Spaces comment applies here as well
-  - `CHECK_BY_RAPID_API`: Set this to `true` if you want to use the Rapd API
+  - `MAGIC_NUMBERS`: Required for Rapid API. The numbers you use to play Euromillions, supply these as a comma separated string e..g. `1,2,3,4,5`. Note that there **can not be any spaces between the numbers** 
+  - `MAGIC_STARS`: Required for Rapid API. The stars you use to play Euromillions, supply these as a comma separated string e.g. `4,9`. Spaces comment applies here as well.
+  - `CHECK_BY_RAPID_API`: Set this to `true` if you want to use the Rapid API
 - Set project trigger to run `checkResults` twice a week. I would suggest a time that is a few hours after you receive the results by email, e.g. `Every Wednesday & Saturday between Midnight and 1 AM`
 - Deploy as webbapp while granting the necessary permissions
 
